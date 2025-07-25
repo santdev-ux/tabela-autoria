@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f5f5f5;
+}
+
+h1 {
+    text-align: center;
+    color: #c41e3a;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+    font-size: 16px;
+    font-weight: normal;
+    margin-bottom: 30px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Todas as células básicas */
+td {
+    padding: 6px 8px;
+    font-size: 11px;
+    border-bottom: 1px solid #e0e0e0;
+    text-align: right;
+}
+
+/* Primeira coluna sempre à esquerda */
+td:first-child {
+    text-align: left;
+}
+
+/* Cabeçalho - primeira linha da tabela */
+table tr:first-child td {
+    background-color: #c41e3a;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 8px;
+    font-size: 12px;
+}
+
+#v1, #v2, #v3, #v4, #v5, #v6 {
+    background-color: #c41e3a !important;
+    color: white !important;
+    font-weight: bold !important;
+    text-align: left !important;
+    padding: 8px !important;
+    font-size: 12px !important;
+}
+
+#t1, #t2, #t3, #t4, #t5, #t6 {
+    background-color: #f0f0f0 !important;
+    font-weight: bold !important;
+    border-top: 2px solid #c41e3a !important;
+    border-bottom: 2px solid #c41e3a !important;
+}
+
+#g {
+    background-color: #ff9500 !important;
+    color: white !important;
+    font-weight: bold !important;
+    font-size: 12px !important;
+}
+
+#n1, #n2, #n3, #n4, #n5, #n6, #n7, #n8, #n9, #n10, #n11, #n12, #n13, #n14, #n15, #n16, #n17, #n18, #n19, #n20, #n21, #n22, #n23, #n24, #n25, #n26, #n27, #n28, #n29, #n30 {
+    color: #c41e3a !important;
+}
